@@ -26,6 +26,6 @@ public class CheckUtilsTest {
         String str1 = "123";
         String str2 = "123";
         boolean isTrue = equalsString(str1, str2);
-        Assert.assertEquals(false, isTrue);
+        Assert.assertEquals(true, isTrue);
     }
 }
